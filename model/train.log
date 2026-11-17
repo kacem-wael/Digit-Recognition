@@ -1,0 +1,47 @@
+[1/4] normalizing + augmenting (2 extra copies)...
+[2/4] extracting descriptors (1314 per image)... (217s)
+[3/4] training on 180000 samples... (347s)
+  epoch=1  loss=0.5057  val_acc=0.9854
+  epoch=2  loss=0.4097  val_acc=0.9878
+  epoch=3  loss=0.3908  val_acc=0.9888
+  epoch=4  loss=0.3808  val_acc=0.9901
+  epoch=5  loss=0.3738  val_acc=0.9904
+  epoch=6  loss=0.3692  val_acc=0.9896
+  epoch=7  loss=0.3661  val_acc=0.9897
+  epoch=8  loss=0.3622  val_acc=0.9902
+  epoch=9  loss=0.3588  val_acc=0.9904
+  epoch=10  loss=0.3554  val_acc=0.9909
+  epoch=11  loss=0.3524  val_acc=0.9902
+  epoch=12  loss=0.3498  val_acc=0.9907
+  epoch=13  loss=0.3474  val_acc=0.9903
+  epoch=14  loss=0.3443  val_acc=0.9917
+  epoch=15  loss=0.3420  val_acc=0.9909
+  epoch=16  loss=0.3403  val_acc=0.9905
+  epoch=17  loss=0.3387  val_acc=0.9916
+  epoch=18  loss=0.3372  val_acc=0.9913
+  epoch=19  loss=0.3347  val_acc=0.9906
+  epoch=20  loss=0.3331  val_acc=0.9918
+  epoch=21  loss=0.3317  val_acc=0.9914
+  epoch=22  loss=0.3300  val_acc=0.9914
+  epoch=23  loss=0.3286  val_acc=0.9916
+  epoch=24  loss=0.3275  val_acc=0.9919
+  epoch=25  loss=0.3268  val_acc=0.9915
+  epoch=26  loss=0.3259  val_acc=0.9918
+  epoch=27  loss=0.3249  val_acc=0.9920
+  epoch=28  loss=0.3247  val_acc=0.9916
+  epoch=29  loss=0.3247  val_acc=0.9917
+  epoch=30  loss=0.3245  val_acc=0.9917
+[4/4] evaluating... (1751s)
+
+Test accuracy: 0.9917   (Hu+PCA+KNN baseline: 0.4945)
+  digit 0: 0.9949
+  digit 1: 0.9974
+  digit 2: 0.9922
+  digit 3: 0.9941
+  digit 4: 0.9929
+  digit 5: 0.9933
+  digit 6: 0.9885
+  digit 7: 0.9922
+  digit 8: 0.9887
+  digit 9: 0.9822
+done in 1753s
